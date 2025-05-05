@@ -1,6 +1,6 @@
 # Dzukou Dynamic Pricing
 
-A project for analyzing and predicting dynamic pricing on e-commerce platforms.
+Building an AI-Powered Dynamic Pricing System for Dzukou
 
 ## Project Structure
 
