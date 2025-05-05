@@ -37,7 +37,3 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-
-## Usage
-
-(Add instructions on how to use the project here)
