@@ -30,6 +30,7 @@ data/processed/*
 !data/processed/.gitkeep
 !data/master/
 !data/master/product_master_raw.csv
+!data/master/product_master_clean.csv
 
 # Model files
 models/*
