@@ -28,6 +28,8 @@ data/processed/*
 *.sqlite
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/master/
+!data/master/product_master_raw.csv
 
 # Model files
 models/*
@@ -64,4 +66,4 @@ coverage.xml
 
 # Scraped data
 *.html
-webpages/ 
+webpages/
