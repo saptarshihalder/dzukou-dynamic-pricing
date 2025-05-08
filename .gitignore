@@ -68,3 +68,8 @@ coverage.xml
 # Scraped data
 *.html
 webpages/
+
+# Selenium/Chrome
+chromedriver.exe
+chromedriver
+.chromedriver*
