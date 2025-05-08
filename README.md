@@ -66,9 +66,3 @@ To add new products or platforms:
 2. For new platforms, add a new scraping method following the pattern of existing ones
 3. Test locally before committing
 
-## Future Enhancements
-
-- Add more e-commerce platforms
-- Implement price change alerts
-- Create data visualization dashboard
-- Add product category analysis
