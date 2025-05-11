@@ -15,6 +15,7 @@ venv/
 env/
 ENV/
 .env
+.venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -22,7 +23,6 @@ ENV/
 # Data files
 data/raw/*
 data/processed/*
-*.json
 *.sqlite
 !data/raw/.gitkeep
 !data/processed/.gitkeep
@@ -32,8 +32,6 @@ data/processed/*
 
 # Model files
 models/*
-*.h5
-*.joblib
 !models/.gitkeep
 
 # IDE specific files
@@ -69,12 +67,3 @@ webpages/
 chromedriver.exe
 chromedriver
 .chromedriver*
-# Track data files
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.xlsx filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
-*.pkl filter=lfs diff=lfs merge=lfs -text
-*.h5 filter=lfs diff=lfs merge=lfs -text
-
-# Track scraped HTML
-*.html filter=lfs
